@@ -4,4 +4,4 @@ Apex Class:
 
 Visualforce:
 ------------
-**salesforce.com/*/e?retURL=**ApexComponent.apexp**,**salesforce.com/*/e?retURL=**ApexPage.apexp**
+**salesforce.com/*/e?retURL=**ApexComponent.apexp**,**salesforce.com/*/e?retURL=**ApexPage.apexp**,**salesforce.com/**editVFEmailTemplate.apexp**
