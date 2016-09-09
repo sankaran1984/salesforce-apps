@@ -81,6 +81,10 @@ function onButton3Clicked(){
 	m.resetButtonBack();
 }
 ```
-	
+ 6. Add the new '☰ My Menu' button to the layout. Now, you have neat logical menu collating all those buttons.
+
+ ![image](https://cloud.githubusercontent.com/assets/4547493/18401254/89dd868c-76d1-11e6-8b0b-b5a80d886117.png)
+
+
 Happy Coding !
 	
