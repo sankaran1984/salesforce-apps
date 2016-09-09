@@ -1,11 +1,11 @@
 Welcome Salesforce User/Developer !
 
-I use Developer Console/ Force IDE most of the time. But, i tend to use Web UI Editor quite few times, mainly for 2 purposes,
+I use Developer Console/ Force IDE most of the time. But, i tend to use Web UI Editor quite few times everyday, mainly for 2 purposes,
  1. 'Quick Save' Feature
- 2. Very quick to edit to few files. 
+ 2. Very quick to edit few files. 
     Force IDE & Developer Console gets painfully slow, if there's any async process goes on in the background.
 	
-Have you wondered why Editor in Salesforce Web UI is so small ?
+Have you ever wondered why Editor in Salesforce Web UI is so small ?
 <pic>
 	
 I have a solution for that !
