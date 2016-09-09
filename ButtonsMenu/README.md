@@ -24,17 +24,63 @@ Steps for the Solution:
 Usage Examples:
 ---------------
 Let's assume we have three buttons(which all logically related) that does the following,
-	Button1 -> 'Visualforce Page' Redirection
-	Button2 -> 'Onclick Javascript' Execution
-	Button3 -> 'Webservice' Execution
+* Button1 -> 'Visualforce Page' Redirection
+* Button2 -> 'Onclick Javascript' Execution
+* Button3 -> 'Webservice' Execution
 	
 Now, Follow these steps to convert these buttons to Menu,
-1) Go to the 'Button, Links, Actions' Page for the Object on which you have these buttons.
-2) Create a button with name, say '= My Menu'
-3) choose 'OnClick Javascript'
-4) The code would be like this,
+1. Go to the 'Button, Links, Actions' Page for the Object on which you have these buttons.
+2. Create a button with name, say '☰ My Menu' (Note I have added a unicode character before the name 'My Menu', just to differentiate from normal button)
+3. choose 'Detail page button'
+4. choose behaviour 'Executing javascript' & content source 'OnClick Javascript'
+5. The code would be like this,
 	
-	<code>
+<code>
+{!REQUIRESCRIPT("/soap/ajax/9.0/connection.js")}
+{!REQUIRESCRIPT("/soap/ajax/9.0/apex.js")}
+{!REQUIRESCRIPT("/apex/ButtonsMenu")}
+
+var m = ButtonsMenu(element,
+	[
+		{
+			Label : 'Button1',
+			onClick : onButton1Clicked
+		},
+		{
+			Label : 'Button2',
+			onClick : onButton2Clicked
+		},
+		{
+			Label : 'Button3',
+			onClick : onButton3Clicked
+		}		
+	]
+);
+
+function onButton1Clicked(){
+	/*Page redirection to page1*/
+	windows.location.href = '/apex/page1';
+}
+
+function onButton2Clicked(){
+	/*Onclick javascript execution*/
+	alert('Any custom logic in Javascript, goes here');
+	
+	//By default, once you click the button, label changes to 'Please Wait' while the 
+	//webservice returns. So, in order to put back the original label, one need to call resetButtonBack()
+	m.resetButtonBack();
+}
+
+function onButton3Clicked(){
+	/*calling webservice called testservice*/
+	var ret = sforce.apex.execute('WebServiceCls', 'testservice', 
+		{'param1' : 'test'});
+	
+	//By default, once you click the button, label changes to 'Please Wait' while the 
+	//webservice returns. So, in order to put back the original label, one need to call resetButtonBack()
+	m.resetButtonBack();
+}
+<code>
 	
 Happy Coding !
 	
