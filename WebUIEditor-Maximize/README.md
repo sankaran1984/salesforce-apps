@@ -29,4 +29,6 @@ Steps for the solution
 Now, try to edit any apex/trigger/visualforce page/visualforce component in web UI.
 you get the maximum size of the source code editor, i.e covering the whole window size.
 
+![bigwindow](https://cloud.githubusercontent.com/assets/4547493/18383326/e9807ebe-767c-11e6-8306-650b4ce9f803.JPG)
+
 Happy Coding !!
