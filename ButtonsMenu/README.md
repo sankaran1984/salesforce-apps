@@ -2,19 +2,20 @@ Welcome Salesforce User/Developer !
 
 In Salesforce, extending the functionalities through 'Buttons' is an excellent feature. 
 So many of my clients using Salesforce for more than 5 years on avergage & one biggest problem they have is, 
-'Too many buttons' in the page.
-<pic>
+'Too many buttons' in the detail page (or) list page for important objects like Account, Opportunity, Cases, etc.
+
+![image](https://cloud.githubusercontent.com/assets/4547493/18390134/ea16c314-76a0-11e6-9734-ee48a5eb65d5.png)
 
 This prevents them from,
-   1) Adding more features though Buttons  
-   2) Confusing users as they have to figure out the right button to click, from pools of buttons.
-   3) In worst case, it gives bad usability on Salesforce product itself.
+   1. Adding more features though Buttons  
+   2. Confusing users as they have to figure out the right button to click, from pools of buttons.
+   3. In worst case, it gives bad usability on Salesforce product itself.
    
 I have a solution for this !!
 
 Steps for the Solution:
 -----------------------
-1) create a new Visualforce Page & paste the contents of the file 'ButtonsMenu.page'
+1. create a new Visualforce Page & paste the contents of the file 'ButtonsMenu.page'
     (or)
    In Force IDE, you can drop 'ButtonsMenu.page' file under 'Pages' directory & click 'Refresh' under the project's
    right click menu.
