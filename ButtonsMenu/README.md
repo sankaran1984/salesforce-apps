@@ -59,7 +59,7 @@ var m = ButtonsMenu(element,
 
 function onButton1Clicked(){
 	/*Page redirection to page1*/
-	windows.location.href = '/apex/page1';
+	window.location.href = '/apex/page1';
 }
 
 function onButton2Clicked(){
@@ -73,8 +73,12 @@ function onButton2Clicked(){
 
 function onButton3Clicked(){
 	/*calling webservice called testservice*/
-	var ret = sforce.apex.execute('WebServiceCls', 'testservice', 
-		{'param1' : 'test'});
+	try{
+		var ret = sforce.apex.execute('WebServiceCls', 'testservice', 
+			{'param1' : 'test'});
+	}catch(e){
+		alert('Error - '+e);
+	}
 	
 	//By default, once you click the button, label changes to 'Please Wait' while the 
 	//webservice returns. So, in order to put back the original label, one need to call resetButtonBack()
