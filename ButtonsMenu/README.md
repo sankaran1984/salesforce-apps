@@ -7,8 +7,8 @@ So many of my clients using Salesforce for more than 5 years on avergage & one b
 ![image](https://cloud.githubusercontent.com/assets/4547493/18390403/fbf4a46a-76a1-11e6-9aa6-4e72cd145ccf.png)
 
 
-This prevents them from,
-   1. Adding more features though Buttons  
+These are the consequences,
+   1. Prevents adding more features though Buttons  
    2. Confusing users as they have to figure out the right button to click, from pools of buttons.
    3. In worst case, it gives bad usability on Salesforce product itself.
    
