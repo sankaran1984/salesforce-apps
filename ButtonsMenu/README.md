@@ -4,7 +4,8 @@ In Salesforce, extending the functionalities through 'Buttons' is an excellent f
 So many of my clients using Salesforce for more than 5 years on avergage & one biggest problem they have is, 
 'Too many buttons' in the detail page (or) list page for important objects like Account, Opportunity, Cases, etc.
 
-![image](https://cloud.githubusercontent.com/assets/4547493/18390337/b5168b12-76a1-11e6-8964-cbb6acb49cf2.png)
+![image](https://cloud.githubusercontent.com/assets/4547493/18390403/fbf4a46a-76a1-11e6-9aa6-4e72cd145ccf.png)
+
 
 This prevents them from,
    1. Adding more features though Buttons  
