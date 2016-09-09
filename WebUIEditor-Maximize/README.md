@@ -14,16 +14,16 @@ I have a solution for that !
 Steps for the solution
 ----------------------
 1. This will work with Stylebot, which is a Google Chrome Extension in Google Chrome.
-   Install Stylebot from <url>
+   Install Stylebot from [Stylebot] (https://chrome.google.com/webstore/detail/stylebot/oiaejidbmkiecgbjeifoejpgmdaleoha?hl=en)
 2. Right Click 'Stylebot' icon in the toolbar & click 'Options'
 3. In Options Page, Click 'Styles' under 'Stylebot Options' in the Lefthand side navigation menu
 4. Click 'Add a new style' button under 'Styles',
     * In new dialog box, in URL field, paste this,
-	       **salesforce.com**viewApexClass**,**salesforce.com**editApexClass**
+    ``**salesforce.com**viewApexClass**,**salesforce.com**editApexClass**``
     * In the content box(that follows the url field), copy/paste the content from 'Apex.css'
 5. Click 'Add a new style' button under 'Styles',
     * In new dialog box, in URL field, paste this,
-	       **salesforce.com/*/e?retURL=**ApexComponent.apexp**,**salesforce.com/*/e?retURL=**ApexPage.apexp**,**salesforce.com/**editVFEmailTemplate.apexp**
+    ``**salesforce.com/*/e?retURL=**ApexComponent.apexp**,**salesforce.com/*/e?retURL=**ApexPage.apexp**,**salesforce.com/**editVFEmailTemplate.apexp**``
     * In the content box(that follows the url field), copy/paste the content from 'Visualforce.css'	
 
 Now, try to edit any apex/trigger/visualforce page/visualforce component in web UI.
