@@ -1,0 +1,37 @@
+#AppBodyHeader, #setupNavTree, [id^="thePage:theTemplate:theForm:thePageBlock:thePageBlockSection"], .ptBody>.links, .presence_chat_widget {
+    display: none;
+}
+
+.bPageTitle {
+    left: 0;
+    position: fixed;
+    top: 0;
+}
+
+.detailHeaderHighlightMsg {
+    left: 100px;
+    position: fixed;
+    top: 0;
+}
+
+.pbTitle {
+    visibility: hidden;
+}
+
+[id^="frame_thePage:theTemplate:theForm:thePageBlock2:editor:codeeditor:buffer"] {
+    height: 85vh ;
+}
+
+[id^="thePage:theTemplate:panelGrid"] {
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+body {
+    background: none;
+    overflow: hidden;
+}
+
