@@ -29,13 +29,13 @@ Let's assume we have three buttons(which all logically related) that does the fo
 * Button3 -> 'Webservice' Execution
 	
 Now, Follow these steps to convert these buttons to Menu,
-1. Go to the 'Button, Links, Actions' Page for the Object on which you have these buttons.
-2. Create a button with name, say '☰ My Menu' (Note I have added a unicode character before the name 'My Menu', just to differentiate from normal button)
-3. choose 'Detail page button'
-4. choose behaviour 'Executing javascript' & content source 'OnClick Javascript'
-5. The code would be like this,
+ 1. Go to the 'Button, Links, Actions' Page for the Object on which you have these buttons.
+ 2. Create a button with name, say '☰ My Menu' (Note I have added a unicode character before the name 'My Menu', just to differentiate from normal button)
+ 3. choose 'Detail page button'
+ 4. choose behaviour 'Executing javascript' & content source 'OnClick Javascript'
+ 5. The code would be like this,
 	
-<code>
+```javascript
 {!REQUIRESCRIPT("/soap/ajax/9.0/connection.js")}
 {!REQUIRESCRIPT("/soap/ajax/9.0/apex.js")}
 {!REQUIRESCRIPT("/apex/ButtonsMenu")}
@@ -80,7 +80,7 @@ function onButton3Clicked(){
 	//webservice returns. So, in order to put back the original label, one need to call resetButtonBack()
 	m.resetButtonBack();
 }
-<code>
+```
 	
 Happy Coding !
 	
