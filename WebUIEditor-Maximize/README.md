@@ -6,7 +6,7 @@ I use Developer Console/ Force IDE most of the time. But, i tend to use Web UI E
     Force IDE & Developer Console gets painfully slow, if there's any async process goes on in the background.
 	
 Have you ever wondered why Editor in Salesforce Web UI is so small ?
-<pic>
+![smalleditor](https://cloud.githubusercontent.com/assets/4547493/18382688/0093fd86-767a-11e6-86c1-a290ae043b0e.JPG)
 	
 I have a solution for that !
 
