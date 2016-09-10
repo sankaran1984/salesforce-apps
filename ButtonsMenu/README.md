@@ -67,7 +67,7 @@ function onButton2Clicked(){
 	alert('Any custom logic in Javascript, goes here');
 	
 	//By default, once you click the button, label changes to 'Please Wait' while the 
-	//webservice returns. So, in order to put back the original label, one need to call resetButtonBack()
+	//button action finishes. So, in order to put back the original label, one need to call resetButtonBack()
 	m.resetButtonBack();
 }
 
